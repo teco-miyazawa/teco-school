@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Kokoro Mincho';
+    src: url('fonts/Kokoro.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin:0 ;
+    padding: 0;
+    font-family: 'Kokoro Mincho', serif;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    color: #333;
+}
+
+header{
+    background-color: #f3f8f1;
+}
+
+section{
+    background-color: #f3f8f1;
+}
+
+.section__title{
+    text-align: center;
+    padding: 50px 0;
+    letter-spacing: 5px;
+    line-height: 2;
+}
+
+.section__title h2{
+    font-size: 26px;
+}
+
+.section__title p{
+    font-size: 26px;
+}
+
+/* ヘッダー */
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo_img{
+    width: 150px;
+}
+
+/* メイン画像 */
+.main__visual{
+    background-image: url(../img/mainvisual_slide1.jpg);
+    height: 680px;
+}
+.main__visual_textBlock{
+    padding-top: 120px;
+}
+.main__visual_subText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main__visual_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.main__visual_box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.main__visual_subImage{
+    width: 150px;
+}
+a.btn_02 {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #90be7a;
+	background: #90be7a;
+	color: #fff;
+	transition: 0.5s;
+}
+a.btn_02:hover {
+	color: #90be7a;
+	background: #fff;
+}
+
+/* こんな方におすすめ */
+.introduction{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: #fff;
+    padding: 50px;
+}
+.introduction__box{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.introduction__box_text-top{
+    margin-bottom: 20px;
+}
+.introduction__box_text-top p{
+    font-size: 26px;
+    line-height: 2;
+}
+.introduction__box_text-med p{
+    margin: 5px 0;
+}
+.introduction__box_text-dark{
+    background-color: #394c30;
+    color: #fff;
+    padding: 0 10px;
+    display: inline-block;
+}
+.balloon{
+    position: relative;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #f3f8f1;
+    font-weight: bold;
+    display: inline-block;
+}
+.balloon:before,
+.balloon:after {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #f3f8f1;
+    content: "";
+}
+
+.balloon:before {
+    top: 110%;
+    height: 15px;
+    width: 15px;
+    right: 10%;
+}
+
+.balloon:after {
+    top: 130%;
+    height: 10px;
+    width: 10px;
+    right: 5%;
+}
+.introduction__box_text-bottom{
+    margin-top: 30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.introduction__box_text-last{
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-bottom: 7px solid #394c30;
+}
+.introduction__box_img{
+    bottom: 0;
+    position: absolute;
+    right: -3%;
+}
+/* カリキュラムの特徴 */
+.curriculum{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: #fff;
+    padding: 50px;
+}
+.curriculum__box{
+    width: 900px;
+    margin: 0 auto;
+}
+.curriculum__box_text-top p{
+    font-size: 26px;
+    line-height: 2;
+    text-align: center;
+}
+.curriculum__box_text-med{
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+.curriculum__box_text-dark{
+    display: inline-block;
+    border-bottom: 5px solid #394c30;
+}
+.curriculum__circle{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.curriculum__circle img{
+    width: 200px;
+}
+.curriculum__box_text-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.curriculum__box_img{
+    text-align: center;
+}
+/* セミナー後のサポート  */
+.support{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 60px;
+    background-color: #fff;
+    padding: 50px;
+}
+.support__text-top{
+    font-size: 26px;
+    line-height: 2;
+    text-align: center;
+}
+.support__text-med{
+    text-align: right;
+    width: 820px;
+    margin-top: 20px;
+}
+.support__box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 850px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.support__box_img{
+    width: 300px;
+}
+/* セミナー情報 */
+.seminar{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 60px;
+    background-color: #fff;
+}
+.seminar__table{
+    margin: 0 auto;
+    line-height: 2;
+    border-collapse: collapse;
+}
+.seminar__table tr {
+    border-bottom: 1px solid #333;
+}
+.seminar__table th,
+.seminar__table td{
+    padding: 10px;
+}
+.seminar__entry_text-top{
+    text-align: center;
+    margin-top: 30px;
+}
+.seminar__entry{
+    padding: 20px;
+}
+.seminar__entry_box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seminar__entry_box p{
+    padding: 5px;
+}
+/* 会社概要 */
+.company{
+    margin: 0 auto;
+    padding: 80px 250px;
+}
+.company__title{
+    font-size: 26px;
+}
+.company__text{
+    line-height: 2;
+    padding: 20px;
+}
+/* footer */
+footer{
+    background-color: #333;
+    color: #fff;
+}
+.footer__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
